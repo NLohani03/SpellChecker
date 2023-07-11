@@ -17,7 +17,7 @@ int main() {
             ifstream fin;
             fin.open("corpus.txt"); 
             while (fin >> addWord) { 
-                //myTrie->insert(addWord); 
+                myTrie->insert(addWord); 
             }
             fin.close();
             cout << "success" << endl;
